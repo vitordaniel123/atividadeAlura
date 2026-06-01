@@ -1,36 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<style>
-img {
-width: 80px;
-height: 80px;
-}
-header {
-background-color: #183C63;
-color: #FFFFFF;
-text-align: center;
-max-width: 800px;
-margin: 0 auto;
-padding: 16px;
-}
-main {
-background-color: #FFFFFF;
-color: #183C63;
-}
-</style>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blog</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            color: #333;
+        }
+
+        /* Estilo do Cabeçalho (Header) */
+        header {
+            background-color: #1a3a5f; /* Azul escuro */
+            color: white;
+            text-align: center;
+            padding: 30px 10px;
+            border: 4px solid #b22222; /* Borda vermelha */
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            margin: 0 0 10px 0;
+            font-size: 28px;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 14px;
+            font-weight: lighter;
+        }
+
+        /* Estilo do Post */
+        article h2 {
+            font-size: 22px;
+            margin-bottom: 5px;
+        }
+
+        .author {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .content {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    </style>
 </head>
 <body>
-<h1>Meu blog tech</h1>
-<p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
-<main>
-<h2>Meu primeiro post</h2>
-<p>Por: Vitor Daniel</p>
-<p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.</p>
-</main>
-<img src="imagemblog.jpeg" alt="logotipo conceitual de tecnologia e educação: um livro aberto de onde emerge um cérebro digital brilhante, cercado por ícones de Wi-Fi, circuitos e lâmpada de ideia. Cores em tons de azul e branco.">
+
+    <header>
+        <h1>Meu blog tech</h1>
+        <p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
+    </header>
+
+    <article>
+        <h2>Meu primeiro post</h2>
+        <div class="author">Por: Vitor Daniel</div>
+        <div class="content">
+            Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.
+        </div>
+    </article>
+
 </body>
 </html>
